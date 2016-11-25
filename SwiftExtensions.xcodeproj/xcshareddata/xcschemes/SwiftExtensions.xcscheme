@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A52B37D1DE84F7E00FDBCE9"
-               BuildableName = "Swift-Extensions.framework"
-               BlueprintName = "Swift-Extensions"
-               ReferencedContainer = "container:Swift-Extensions.xcodeproj">
+               BuildableName = "SwiftExtensions.framework"
+               BlueprintName = "SwiftExtensions"
+               ReferencedContainer = "container:SwiftExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A52B3861DE84F7E00FDBCE9"
-               BuildableName = "Swift-ExtensionsTests.xctest"
-               BlueprintName = "Swift-ExtensionsTests"
-               ReferencedContainer = "container:Swift-Extensions.xcodeproj">
+               BuildableName = "SwiftExtensionsTests.xctest"
+               BlueprintName = "SwiftExtensionsTests"
+               ReferencedContainer = "container:SwiftExtensions.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A52B37D1DE84F7E00FDBCE9"
-            BuildableName = "Swift-Extensions.framework"
-            BlueprintName = "Swift-Extensions"
-            ReferencedContainer = "container:Swift-Extensions.xcodeproj">
+            BuildableName = "SwiftExtensions.framework"
+            BlueprintName = "SwiftExtensions"
+            ReferencedContainer = "container:SwiftExtensions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A52B37D1DE84F7E00FDBCE9"
-            BuildableName = "Swift-Extensions.framework"
-            BlueprintName = "Swift-Extensions"
-            ReferencedContainer = "container:Swift-Extensions.xcodeproj">
+            BuildableName = "SwiftExtensions.framework"
+            BlueprintName = "SwiftExtensions"
+            ReferencedContainer = "container:SwiftExtensions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A52B37D1DE84F7E00FDBCE9"
-            BuildableName = "Swift-Extensions.framework"
-            BlueprintName = "Swift-Extensions"
-            ReferencedContainer = "container:Swift-Extensions.xcodeproj">
+            BuildableName = "SwiftExtensions.framework"
+            BlueprintName = "SwiftExtensions"
+            ReferencedContainer = "container:SwiftExtensions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

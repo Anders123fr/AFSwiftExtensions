@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Gloss
 
 // Extension on array - safe get method
 extension Array {
