@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Swift_Extensions
+@testable import SwiftExtensions
 
 class Swift_ExtensionsTests: XCTestCase {
     

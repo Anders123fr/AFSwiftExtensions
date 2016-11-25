@@ -11,18 +11,18 @@ import UIKit
 public extension String {
 
 	// Get the char at index, as a String
-	func getChar(_ index: Int) -> String {
+	public func getChar(_ index: Int) -> String {
 		return "\(self[self.characters.index(self.startIndex, offsetBy: index)])"
 	}
 	
 	// Capitalizes the first character in the string
-	func capitalizeSentence() -> String {
+	public func capitalizeSentence() -> String {
 		var newStr = self
 		newStr.replaceSubrange(newStr.startIndex...newStr.startIndex, with: String(newStr[newStr.startIndex]).capitalized)
 		return newStr
 	}
 	
-	func fixLastChar(_ lastChar: String) -> String {
+	public func fixLastChar(_ lastChar: String) -> String {
 		// If there is a last char, and the last char is not the correct one then continue
 		guard let curLastChar = self.characters.last , String(curLastChar) != lastChar else { return self }
 		
@@ -30,7 +30,7 @@ public extension String {
 		return self + lastChar
 	}
 	
-	func containsWhiteSpace() -> Bool {
+	public func containsWhiteSpace() -> Bool {
 		// check if there's a range for a whitespace
 		let range = self.rangeOfCharacter(from: .whitespaces)
 		
@@ -41,14 +41,14 @@ public extension String {
 	// Returns the length of the string
 	var length: Int { return self.characters.count }  // Swift 2.0
 	
-	func beginsWith (_ str: String) -> Bool {
+	public func beginsWith (_ str: String) -> Bool {
 		if let range = self.range(of: str) {
 			return range.lowerBound == self.startIndex
 		}
 		return false
 	}
 	
-	func endsWith (_ str: String) -> Bool {
+	public func endsWith (_ str: String) -> Bool {
 		if let range = self.range(of: str) {
 			return range.upperBound == self.endIndex
 		}
@@ -57,7 +57,7 @@ public extension String {
 	
 	// Converts a string to lower case with underscore between Caps
 	// e.g. facebookUserID -> facebook_user_id
-	func toLowerUnderscoreCase() -> String {
+	public func toLowerUnderscoreCase() -> String {
 		var string = self
 		if string.endsWith("ID") {
 			string = string.substring(with: string.startIndex ..< string.characters.index(string.endIndex, offsetBy: -2))
@@ -80,17 +80,17 @@ public extension String {
 	/**
 	Removes whitespace from both ends of a string
 	*/
-	func trim() -> String {
+	public func trim() -> String {
 		return self.trimmingCharacters(in: CharacterSet.whitespaces)
 	}
 	
-	mutating func urlEscapeString() {
+	mutating public func urlEscapeString() {
 		if let escapedStr = self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) {
 			self = escapedStr
 		}
 	}
 	
-	func removeSubstrings(_ subStrings: [String]) -> String {
+	public func removeSubstrings(_ subStrings: [String]) -> String {
 		var tmpString = self
 		for subString in subStrings {
 			tmpString = tmpString.replacingOccurrences(of: subString, with: "")
@@ -99,20 +99,20 @@ public extension String {
 	}
 	
 	
-	func toURL() -> URL? {
+	public func toURL() -> URL? {
 		return URL(string: self)
 	}
 	
-	func toFileURL() -> URL? {
+	public func toFileURL() -> URL? {
 		return URL(fileURLWithPath: self)
 	}
 	
-	func toNSData() -> Data? {
+	public func toNSData() -> Data? {
 		return self.data(using: String.Encoding.utf8)
 	}
 	
 	// EMAIL VALIDATION METHOD
-	func isValidEmail() -> Bool {
+	public func isValidEmail() -> Bool {
 		let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,30}"
 		return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: self)
 	}
