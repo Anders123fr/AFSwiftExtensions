@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
 
 	// Get the char at index, as a String
 	func getChar(_ index: Int) -> String {

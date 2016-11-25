@@ -10,7 +10,7 @@ import UIKit
 
 // A list of localized strings used various places in the app
 
-extension String {
+public extension String {
 	var localized: String {
 		return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
 	}

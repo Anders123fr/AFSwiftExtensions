@@ -9,7 +9,7 @@
 import UIKit
 
 // Extension on array - safe get method
-extension Array {
+public extension Array {
 		
 	// Safely lookup an index that might be out of bounds,
 	// returning nil if it does not exist

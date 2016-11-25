@@ -12,7 +12,7 @@ import AVFoundation
 
 // N.B. Enviroment variable 'DEBUG_BUILD' must be set for the current scheme.
 // If set, and running the app from XCode with cable, this method will return true
-func isDebugBuild() -> Bool {
+public func isDebugBuild() -> Bool {
 	let dic = ProcessInfo.processInfo.environment
 	if dic["DEBUG_BUILD"] != nil {
 		return true
@@ -26,7 +26,7 @@ public let iCloudStore = NSUbiquitousKeyValueStore.default()
 
 
 // Calls the closure synchronized - locked
-func synced(_ lock: AnyObject, closure: () -> ()) {
+public func synced(_ lock: AnyObject, closure: () -> ()) {
 	objc_sync_enter(lock)
 	closure()
 	objc_sync_exit(lock)
@@ -34,7 +34,7 @@ func synced(_ lock: AnyObject, closure: () -> ()) {
 
 
 // MARK: Find VC method
-func findCurrentViewController() -> UIViewController? {
+public func findCurrentViewController() -> UIViewController? {
 	guard let vc = UIApplication.shared.keyWindow?.rootViewController else { return nil }
 	return findBestVC(vc)
 }
@@ -84,7 +84,7 @@ func findBestVC(_ vc: UIViewController) -> UIViewController? {
 
 
 // Opens a specific URL but only if it can be opened
-func openURL(_ url: String, completion: @escaping (Bool) -> ()) {
+public func openURL(_ url: String, completion: @escaping (Bool) -> ()) {
 	guard let link = url.toURL() else { return }
 	
 	if #available(iOS 10.0, *) {

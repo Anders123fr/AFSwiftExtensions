@@ -8,12 +8,12 @@
 
 import UIKit
 
-extension UIAlertView {
+public extension UIAlertController {
 	// GLOBAL ALERT FUNCTIONS
 	
 	// Shows a standard alert to the user with a title and an optional message.
 	// The alert then has an OK button
-	static func showInCurrentVC(_ title: String, message: String? = nil) {
+	static func show(_ title: String, message: String? = nil) {
 		// Create the alert
 		let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
 		
