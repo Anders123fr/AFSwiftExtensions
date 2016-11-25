@@ -11,6 +11,8 @@
 		9A52B38D1DE84F7E00FDBCE9 /* Swift_ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B38C1DE84F7E00FDBCE9 /* Swift_ExtensionsTests.swift */; };
 		9A52B38F1DE84F7E00FDBCE9 /* Swift-Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A52B3811DE84F7E00FDBCE9 /* Swift-Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A52B39A1DE8501400FDBCE9 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3991DE8501400FDBCE9 /* Array.swift */; };
+		9A52B3BC1DE85BC000FDBCE9 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */; };
+		9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		9A52B38C1DE84F7E00FDBCE9 /* Swift_ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ExtensionsTests.swift; sourceTree = "<group>"; };
 		9A52B38E1DE84F7E00FDBCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A52B3991DE8501400FDBCE9 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Extensions/Array.swift; sourceTree = "<group>"; };
+		9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Extensions/Dispatch.swift; sourceTree = "<group>"; };
+		9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Extensions/SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				9A52B3991DE8501400FDBCE9 /* Array.swift */,
+				9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */,
+				9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -210,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */,
 				9A52B39A1DE8501400FDBCE9 /* Array.swift in Sources */,
+				9A52B3BC1DE85BC000FDBCE9 /* Dispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
