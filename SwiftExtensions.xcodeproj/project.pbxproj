@@ -17,7 +17,6 @@
 		9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */; };
 		9A52B3C81DE8646200FDBCE9 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */; };
 		9A52B3CA1DE864E500FDBCE9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C91DE864E500FDBCE9 /* String.swift */; };
-		9A52B3CD1DE86B9400FDBCE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A52B3CB1DE86B9400FDBCE9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = UIAlert.swift; path = Extensions/UIAlert.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = StringConstants.swift; path = Extensions/StringConstants.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9A52B3C91DE864E500FDBCE9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = String.swift; path = Extensions/String.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		9A52B3CC1DE86B9400FDBCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9A52B3CE1DE86BA100FDBCE9 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +87,6 @@
 			children = (
 				9A52B3811DE84F7E00FDBCE9 /* Swift-Extensions.h */,
 				9A52B3821DE84F7E00FDBCE9 /* Info.plist */,
-				9A52B3CB1DE86B9400FDBCE9 /* Localizable.strings */,
 				9A52B3981DE84F8F00FDBCE9 /* Extensions */,
 			);
 			path = "Swift-Extensions";
@@ -139,8 +135,8 @@
 			buildPhases = (
 				9A52B3791DE84F7E00FDBCE9 /* Sources */,
 				9A52B37A1DE84F7E00FDBCE9 /* Frameworks */,
-				9A52B37B1DE84F7E00FDBCE9 /* Headers */,
 				9A52B37C1DE84F7E00FDBCE9 /* Resources */,
+				9A52B37B1DE84F7E00FDBCE9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -200,6 +196,7 @@
 				en,
 				Base,
 				da,
+				de,
 			);
 			mainGroup = 9A52B3741DE84F7E00FDBCE9;
 			productRefGroup = 9A52B37F1DE84F7E00FDBCE9 /* Products */;
@@ -217,7 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A52B3CD1DE86B9400FDBCE9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,18 +258,6 @@
 			targetProxy = 9A52B3891DE84F7E00FDBCE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9A52B3CB1DE86B9400FDBCE9 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A52B3CC1DE86B9400FDBCE9 /* Base */,
-				9A52B3CE1DE86BA100FDBCE9 /* da */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9A52B3901DE84F7E00FDBCE9 /* Debug */ = {
