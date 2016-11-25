@@ -87,8 +87,10 @@ func findBestVC(_ vc: UIViewController) -> UIViewController? {
 func openURL(_ url: String, completion: @escaping (Bool) -> ()) {
 	guard let link = url.toURL() else { return }
 	
-	if UIApplication.shared.canOpenURL(link) {
+	if #available(iOS 10.0, *) {
 		UIApplication.shared.open(link, options: [:], completionHandler: completion)
+	} else {
+		UIApplication.shared.openURL(link)
 	}
 	
 }
