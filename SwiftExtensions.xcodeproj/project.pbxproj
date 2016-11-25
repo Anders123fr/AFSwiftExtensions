@@ -13,6 +13,10 @@
 		9A52B39A1DE8501400FDBCE9 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3991DE8501400FDBCE9 /* Array.swift */; };
 		9A52B3BC1DE85BC000FDBCE9 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */; };
 		9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */; };
+		9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C11DE8630300FDBCE9 /* Global.swift */; };
+		9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */; };
+		9A52B3C81DE8646200FDBCE9 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */; };
+		9A52B3CA1DE864E500FDBCE9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3C91DE864E500FDBCE9 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		9A52B3991DE8501400FDBCE9 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Extensions/Array.swift; sourceTree = "<group>"; };
 		9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Extensions/Dispatch.swift; sourceTree = "<group>"; };
 		9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Extensions/SpringAnimation.swift; sourceTree = "<group>"; };
+		9A52B3C11DE8630300FDBCE9 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Extensions/Global.swift; sourceTree = "<group>"; };
+		9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlert.swift; path = Extensions/UIAlert.swift; sourceTree = "<group>"; };
+		9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringConstants.swift; path = Extensions/StringConstants.swift; sourceTree = "<group>"; };
+		9A52B3C91DE864E500FDBCE9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extensions/String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +104,13 @@
 		9A52B3981DE84F8F00FDBCE9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9A52B3C11DE8630300FDBCE9 /* Global.swift */,
+				9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */,
 				9A52B3991DE8501400FDBCE9 /* Array.swift */,
 				9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */,
+				9A52B3C91DE864E500FDBCE9 /* String.swift */,
 				9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */,
+				9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -216,7 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */,
+				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
+				9A52B3C81DE8646200FDBCE9 /* StringConstants.swift in Sources */,
 				9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */,
+				9A52B3CA1DE864E500FDBCE9 /* String.swift in Sources */,
 				9A52B39A1DE8501400FDBCE9 /* Array.swift in Sources */,
 				9A52B3BC1DE85BC000FDBCE9 /* Dispatch.swift in Sources */,
 			);
