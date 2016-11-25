@@ -1,14 +1,10 @@
 //
 //  UIButton.swift
-//  BoligBuddy
-//
-//  Created by Anders Friis on 26/08/15.
-//  Copyright (c) 2015 Danske Bank. All rights reserved.
 //
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 	
 	func autoScaleTitle() {
 		titleLabel?.minimumScaleFactor = 0.5

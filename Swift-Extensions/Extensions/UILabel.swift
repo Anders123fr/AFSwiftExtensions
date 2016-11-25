@@ -1,14 +1,10 @@
 //
 //  UILabel.swift
-//  BoligBuddy
-//
-//  Created by Anders Friis on 19/08/15.
-//  Copyright (c) 2015 Danske Bank. All rights reserved.
 //
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
 	
 	func autoScaleText() {
 		minimumScaleFactor = 0.5

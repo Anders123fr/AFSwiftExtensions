@@ -1,14 +1,10 @@
 //
 //  UIFont.swift
-//  SwiftExtensions
-//
-//  Created by Anders Friis on 25/11/2016.
-//  Copyright © 2016 cromian. All rights reserved.
 //
 
 import UIKit
 
-extension UIFont {
+public extension UIFont {
 
 	class func fontAwesome(_ size: CGFloat) -> UIFont {
 		return UIFont(name: "FontAwesome", size: size)!
