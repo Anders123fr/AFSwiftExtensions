@@ -22,6 +22,8 @@
 		9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3D61DE8740600FDBCE9 /* UILabel.swift */; };
 		9A52B3DB1DE876D600FDBCE9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */; };
 		9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */; };
+		9AEE7C871DEAE5DC002A0E20 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C861DEAE5DC002A0E20 /* UIView.swift */; };
+		9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C881DEAE796002A0E20 /* HSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9A52B3D61DE8740600FDBCE9 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extensions/UILabel.swift; sourceTree = "<group>"; };
 		9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Extensions/UIFont.swift; sourceTree = "<group>"; };
 		9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extensions/UIViewController.swift; sourceTree = "<group>"; };
+		9AEE7C861DEAE5DC002A0E20 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extensions/UIView.swift; sourceTree = "<group>"; };
+		9AEE7C881DEAE796002A0E20 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Extensions/HSL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */,
 				9A52B3991DE8501400FDBCE9 /* Array.swift */,
 				9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */,
+				9AEE7C881DEAE796002A0E20 /* HSL.swift */,
 				9A52B3C91DE864E500FDBCE9 /* String.swift */,
 				9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */,
 				9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */,
@@ -125,6 +130,7 @@
 				9A30CD081DE8783000378C5D /* UIColor.swift */,
 				9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */,
 				9A52B3D61DE8740600FDBCE9 /* UILabel.swift */,
+				9AEE7C861DEAE5DC002A0E20 /* UIView.swift */,
 				9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */,
 			);
 			name = Extensions;
@@ -246,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEE7C871DEAE5DC002A0E20 /* UIView.swift in Sources */,
+				9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */,
 				9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */,
 				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
 				9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */,
