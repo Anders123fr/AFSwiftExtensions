@@ -21,6 +21,7 @@
 		9A52B3D81DE8740600FDBCE9 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3D51DE8740600FDBCE9 /* UIButton.swift */; };
 		9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3D61DE8740600FDBCE9 /* UILabel.swift */; };
 		9A52B3DB1DE876D600FDBCE9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */; };
+		9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9A52B3D51DE8740600FDBCE9 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Extensions/UIButton.swift; sourceTree = "<group>"; };
 		9A52B3D61DE8740600FDBCE9 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extensions/UILabel.swift; sourceTree = "<group>"; };
 		9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Extensions/UIFont.swift; sourceTree = "<group>"; };
+		9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extensions/UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				9A30CD081DE8783000378C5D /* UIColor.swift */,
 				9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */,
 				9A52B3D61DE8740600FDBCE9 /* UILabel.swift */,
+				9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */,
 				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
+				9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */,
 				9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */,
 				9A52B3C81DE8646200FDBCE9 /* StringConstants.swift in Sources */,
 				9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */,
