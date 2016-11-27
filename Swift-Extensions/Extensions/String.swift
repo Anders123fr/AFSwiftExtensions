@@ -22,6 +22,11 @@ public extension String {
 		return newStr
 	}
 	
+	// Returns true if it contains the substring regardless of the case
+	func containsIgnoringCase(find: String) -> Bool{
+		return self.range(of: find, options: .caseInsensitive) != nil
+	}
+	
 	func fixLastChar(_ lastChar: String) -> String {
 		// If there is a last char, and the last char is not the correct one then continue
 		guard let curLastChar = self.characters.last , String(curLastChar) != lastChar else { return self }
