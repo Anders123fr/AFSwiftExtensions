@@ -216,5 +216,70 @@ public extension UIView {
 		
 		self.addMotionEffect(effectGroup)
 	}
+	
+	
+	// MARK: Frame accessor - used for easy reading and writing of a view's origin and size 
+	
+	var origin: CGPoint {
+		return self.frame.origin
+	}
 
+	func set(origin: CGPoint) {
+		var frame = self.frame
+		frame.origin = origin
+		self.frame = frame
+	}
+
+	
+	var size: CGSize {
+		return self.frame.size
+	}
+	
+	func set(size: CGSize) {
+		var frame = self.frame
+		frame.size = size
+		self.frame = frame
+	}
+
+	
+	var width: CGFloat {
+		return self.size.width
+	}
+	
+	func set(width: CGFloat) {
+		var frame = self.frame
+		frame.size.width = width
+		self.frame = frame
+	}
+
+	
+	var height: CGFloat {
+		return self.size.height
+	}
+	
+	func set(height: CGFloat) {
+		var frame = self.frame
+		frame.size.height = height
+		self.frame = frame
+	}
+
+	
+	var x: CGFloat {
+		return self.origin.x
+	}
+	
+
+	func set(x: CGFloat) {
+		set(origin: CGPoint(x: x, y: self.y))
+	}
+
+	
+	var y: CGFloat {
+		return self.origin.y
+	}
+	
+	func set(y: CGFloat) {
+		set(origin: CGPoint(x: self.x, y: y))
+	}
+	
 }
