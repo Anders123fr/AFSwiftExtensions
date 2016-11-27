@@ -24,6 +24,7 @@
 		9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */; };
 		9AEE7C871DEAE5DC002A0E20 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C861DEAE5DC002A0E20 /* UIView.swift */; };
 		9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C881DEAE796002A0E20 /* HSL.swift */; };
+		9AEE7CA81DEB1477002A0E20 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7CA71DEB1477002A0E20 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extensions/UIViewController.swift; sourceTree = "<group>"; };
 		9AEE7C861DEAE5DC002A0E20 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extensions/UIView.swift; sourceTree = "<group>"; };
 		9AEE7C881DEAE796002A0E20 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Extensions/HSL.swift; sourceTree = "<group>"; };
+		9AEE7CA71DEB1477002A0E20 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Extensions/UITableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				9A30CD081DE8783000378C5D /* UIColor.swift */,
 				9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */,
 				9A52B3D61DE8740600FDBCE9 /* UILabel.swift */,
+				9AEE7CA71DEB1477002A0E20 /* UITableView.swift */,
 				9AEE7C861DEAE5DC002A0E20 /* UIView.swift */,
 				9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */,
 			);
@@ -254,6 +257,7 @@
 			files = (
 				9AEE7C871DEAE5DC002A0E20 /* UIView.swift in Sources */,
 				9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */,
+				9AEE7CA81DEB1477002A0E20 /* UITableView.swift in Sources */,
 				9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */,
 				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
 				9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */,
