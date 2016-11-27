@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 	
 	/*
 	Hides separators between empty cells in the table view.
