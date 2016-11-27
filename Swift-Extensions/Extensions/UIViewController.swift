@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
 	// Call on the parent view controller,
 	// if there should be no title text in the back bar button,
