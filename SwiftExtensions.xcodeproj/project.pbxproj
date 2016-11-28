@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1F8F7A1DEC5553005B01F1 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F8F791DEC5553005B01F1 /* NumberFormatter.swift */; };
+		9A1F8F7C1DEC55A2005B01F1 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F8F7B1DEC55A2005B01F1 /* DateFormatter.swift */; };
 		9A30CD091DE8783000378C5D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30CD081DE8783000378C5D /* UIColor.swift */; };
 		9A52B3881DE84F7E00FDBCE9 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A52B37E1DE84F7E00FDBCE9 /* SwiftExtensions.framework */; };
 		9A52B38D1DE84F7E00FDBCE9 /* Swift_ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B38C1DE84F7E00FDBCE9 /* Swift_ExtensionsTests.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A1F8F791DEC5553005B01F1 /* NumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberFormatter.swift; path = Extensions/NumberFormatter.swift; sourceTree = "<group>"; };
+		9A1F8F7B1DEC55A2005B01F1 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Extensions/DateFormatter.swift; sourceTree = "<group>"; };
 		9A30CD081DE8783000378C5D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Extensions/UIColor.swift; sourceTree = "<group>"; };
 		9A52B37E1DE84F7E00FDBCE9 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A52B3811DE84F7E00FDBCE9 /* Swift-Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Extensions.h"; sourceTree = "<group>"; };
@@ -123,8 +127,10 @@
 				9A52B3C11DE8630300FDBCE9 /* Global.swift */,
 				9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */,
 				9A52B3991DE8501400FDBCE9 /* Array.swift */,
+				9A1F8F7B1DEC55A2005B01F1 /* DateFormatter.swift */,
 				9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */,
 				9AEE7C881DEAE796002A0E20 /* HSL.swift */,
+				9A1F8F791DEC5553005B01F1 /* NumberFormatter.swift */,
 				9A52B3C91DE864E500FDBCE9 /* String.swift */,
 				9A52B3BD1DE85C5B00FDBCE9 /* SpringAnimation.swift */,
 				9A52B3C31DE8633B00FDBCE9 /* UIAlert.swift */,
@@ -262,12 +268,14 @@
 				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
 				9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */,
 				9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */,
+				9A1F8F7C1DEC55A2005B01F1 /* DateFormatter.swift in Sources */,
 				9A52B3C81DE8646200FDBCE9 /* StringConstants.swift in Sources */,
 				9A52B3BE1DE85C5B00FDBCE9 /* SpringAnimation.swift in Sources */,
 				9A52B3DB1DE876D600FDBCE9 /* UIFont.swift in Sources */,
 				9A52B3D81DE8740600FDBCE9 /* UIButton.swift in Sources */,
 				9A30CD091DE8783000378C5D /* UIColor.swift in Sources */,
 				9A52B3CA1DE864E500FDBCE9 /* String.swift in Sources */,
+				9A1F8F7A1DEC5553005B01F1 /* NumberFormatter.swift in Sources */,
 				9A52B39A1DE8501400FDBCE9 /* Array.swift in Sources */,
 				9A52B3BC1DE85BC000FDBCE9 /* Dispatch.swift in Sources */,
 			);
