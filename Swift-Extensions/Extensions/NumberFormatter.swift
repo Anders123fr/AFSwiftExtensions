@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension NumberFormatter {
+public extension NumberFormatter {
 
 	static func readablePrice(_ price: Double) -> String {
 		let formatter = NumberFormatter()

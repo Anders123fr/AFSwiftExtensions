@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension DateFormatter {
+public extension DateFormatter {
 	
 	func readableString(_ date: Date, dateStyle: Style = .medium, timeStyle: Style = .full) -> String {
 		self.dateStyle = dateStyle
