@@ -11,7 +11,7 @@ import MapKit
 public extension MKMapView {
 
 	// Optional completionBlock for getting a callback when the region animation has finished
-	func setViewport(_ viewport: Viewport, animated: Bool = true, duration: TimeInterval = 0.7, regionExtraPadding: Double = 1.1, completionBlock:(()->())? = nil) {
+	func setViewport(viewport: Viewport, animated: Bool = true, duration: TimeInterval = 0.7, regionExtraPadding: Double = 1.1, completionBlock:(()->())? = nil) {
 		let topLeft = viewport.topLeft
 		let bottomRight = viewport.bottomRight
 		
@@ -25,11 +25,11 @@ public extension MKMapView {
 		setRegionOnMap(region: region, animated: animated, duration: duration, completionBlock: completionBlock)
 	}
 
-	func setViewportFromCoordinates(_ coordinates: CLLocationCoordinate2D) {
-		self.setViewport(CLLocation(latitude: coordinates.latitude, longitude: coordinates.longitude))
+	func setViewport(coordinates: CLLocationCoordinate2D) {
+		self.setViewport(location: CLLocation(latitude: coordinates.latitude, longitude: coordinates.longitude))
 	}
 	
-	func setViewport(_ location: CLLocation, radius: CLLocationDistance = 1300, animated: Bool = true, duration: TimeInterval = 0.7, completionBlock:(()->())? = nil) {
+	func setViewport(location: CLLocation, radius: CLLocationDistance = 1300, animated: Bool = true, duration: TimeInterval = 0.7, completionBlock:(()->())? = nil) {
 		let diameter = radius * 2.0
 		let region = MKCoordinateRegionMakeWithDistance(location.coordinate, diameter, diameter)
 		setRegionOnMap(region: region, animated: animated, duration: duration, completionBlock: completionBlock)
