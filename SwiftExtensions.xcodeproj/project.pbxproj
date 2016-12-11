@@ -28,6 +28,7 @@
 		9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C881DEAE796002A0E20 /* HSL.swift */; };
 		9AEE7CA81DEB1477002A0E20 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7CA71DEB1477002A0E20 /* UITableView.swift */; };
 		9AF002701DFD7CB300A79D80 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0026F1DFD7CB300A79D80 /* Bundle.swift */; };
+		9AF002801DFDA5FD00A79D80 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0027F1DFDA5FD00A79D80 /* UIImage.swift */; };
 		9AF7132B1DED78C200B2624F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7132A1DED78C200B2624F /* MapView.swift */; };
 		9AF7132D1DED78E700B2624F /* Viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7132C1DED78E700B2624F /* Viewport.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		9AEE7C881DEAE796002A0E20 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Extensions/HSL.swift; sourceTree = "<group>"; };
 		9AEE7CA71DEB1477002A0E20 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Extensions/UITableView.swift; sourceTree = "<group>"; };
 		9AF0026F1DFD7CB300A79D80 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = Extensions/Bundle.swift; sourceTree = "<group>"; };
+		9AF0027F1DFDA5FD00A79D80 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Extensions/UIImage.swift; sourceTree = "<group>"; };
 		9AF7132A1DED78C200B2624F /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Extensions/MapView.swift; sourceTree = "<group>"; };
 		9AF7132C1DED78E700B2624F /* Viewport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Viewport.swift; path = Extensions/Viewport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 				9A30CD081DE8783000378C5D /* UIColor.swift */,
 				9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */,
 				9A52B3D61DE8740600FDBCE9 /* UILabel.swift */,
+				9AF0027F1DFDA5FD00A79D80 /* UIImage.swift */,
 				9AEE7CA71DEB1477002A0E20 /* UITableView.swift */,
 				9AEE7C861DEAE5DC002A0E20 /* UIView.swift */,
 				9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */,
@@ -294,6 +297,7 @@
 				9A52B3C41DE8633B00FDBCE9 /* UIAlert.swift in Sources */,
 				9A52B3C21DE8630300FDBCE9 /* Global.swift in Sources */,
 				9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */,
+				9AF002801DFDA5FD00A79D80 /* UIImage.swift in Sources */,
 				9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */,
 				9AF7132B1DED78C200B2624F /* MapView.swift in Sources */,
 				9A1F8F7C1DEC55A2005B01F1 /* DateFormatter.swift in Sources */,
