@@ -155,8 +155,8 @@ public extension UIView {
 		return 92716
 	}
 	
-	func showActivityIndicator(deltaY: CGFloat = 0) {
-		let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+	func showActivityIndicator(style: UIActivityIndicatorViewStyle = .gray, deltaY: CGFloat = 0) {
+		let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: style)
 		var center = self.center
 		center.y += deltaY
 		activityIndicator.center = center
