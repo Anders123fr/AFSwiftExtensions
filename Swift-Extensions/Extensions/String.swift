@@ -90,9 +90,20 @@ public extension String {
 	}
 	
 	mutating func urlEscapeString() {
-		if let escapedStr = self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) {
+		if let escapedStr = addingPercentEncoding(str: self) {
 			self = escapedStr
 		}
+	}
+	
+	func urlEscapedString() -> String? {
+		if let escapedStr = addingPercentEncoding(str: self) {
+			return escapedStr
+		}
+		return nil
+	}
+	
+	private func addingPercentEncoding(str: String) -> String? {
+		return self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
 	}
 	
 	func removeSubstrings(_ subStrings: [String]) -> String {
