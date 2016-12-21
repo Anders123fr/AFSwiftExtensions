@@ -17,16 +17,5 @@ public extension UILabel {
 		return false
 	}
 	
-	func setLineHeight(_ lineSpacing: CGFloat = 6) {
-		let paraStyle = NSMutableParagraphStyle()
-		paraStyle.lineSpacing = lineSpacing
-		paraStyle.alignment = self.textAlignment
-		
-		let attrString = NSMutableAttributedString(string: self.text!)
-		attrString.addAttribute(NSParagraphStyleAttributeName, value:paraStyle, range:NSMakeRange(0, attrString.length))
-		
-		self.attributedText = attrString
-	}
-	
 }
 
