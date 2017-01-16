@@ -23,6 +23,7 @@
 		9A52B3D81DE8740600FDBCE9 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3D51DE8740600FDBCE9 /* UIButton.swift */; };
 		9A52B3D91DE8740600FDBCE9 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3D61DE8740600FDBCE9 /* UILabel.swift */; };
 		9A52B3DB1DE876D600FDBCE9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */; };
+		9A71FACE1E2CD8840003A01F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71FACD1E2CD8840003A01F /* Data.swift */; };
 		9AEE7C851DEAE1EE002A0E20 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */; };
 		9AEE7C871DEAE5DC002A0E20 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C861DEAE5DC002A0E20 /* UIView.swift */; };
 		9AEE7C891DEAE796002A0E20 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE7C881DEAE796002A0E20 /* HSL.swift */; };
@@ -63,6 +64,7 @@
 		9A52B3D51DE8740600FDBCE9 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Extensions/UIButton.swift; sourceTree = "<group>"; };
 		9A52B3D61DE8740600FDBCE9 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extensions/UILabel.swift; sourceTree = "<group>"; };
 		9A52B3DA1DE876D600FDBCE9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Extensions/UIFont.swift; sourceTree = "<group>"; };
+		9A71FACD1E2CD8840003A01F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Extensions/Data.swift; sourceTree = "<group>"; };
 		9AEE7C841DEAE1EE002A0E20 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extensions/UIViewController.swift; sourceTree = "<group>"; };
 		9AEE7C861DEAE5DC002A0E20 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extensions/UIView.swift; sourceTree = "<group>"; };
 		9AEE7C881DEAE796002A0E20 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Extensions/HSL.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				9A52B3C71DE8646200FDBCE9 /* StringConstants.swift */,
 				9AF0026F1DFD7CB300A79D80 /* Bundle.swift */,
 				9A52B3991DE8501400FDBCE9 /* Array.swift */,
+				9A71FACD1E2CD8840003A01F /* Data.swift */,
 				9A1F8F7B1DEC55A2005B01F1 /* DateFormatter.swift */,
 				9A52B3BB1DE85BC000FDBCE9 /* Dispatch.swift */,
 				9AEE7C881DEAE796002A0E20 /* HSL.swift */,
@@ -306,6 +309,7 @@
 				9A52B3DB1DE876D600FDBCE9 /* UIFont.swift in Sources */,
 				9AF7132D1DED78E700B2624F /* Viewport.swift in Sources */,
 				9AF002701DFD7CB300A79D80 /* Bundle.swift in Sources */,
+				9A71FACE1E2CD8840003A01F /* Data.swift in Sources */,
 				9A52B3D81DE8740600FDBCE9 /* UIButton.swift in Sources */,
 				9A30CD091DE8783000378C5D /* UIColor.swift in Sources */,
 				9A52B3CA1DE864E500FDBCE9 /* String.swift in Sources */,
