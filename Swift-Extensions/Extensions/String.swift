@@ -123,9 +123,25 @@ public extension String {
 		return URL(fileURLWithPath: self)
 	}
 	
-	func toNSData() -> Data? {
+	func toData() -> Data? {
 		return self.data(using: String.Encoding.utf8)
 	}
+	
+	
+	// MARK: JSON Serialization
+	
+	// Converts a string with json, into a serialized JSON object
+	func toJSON() -> [String: AnyObject]? {
+		guard let data = self.toData() else {
+			return nil
+		}
+		do {
+			return try JSONSerialization.jsonObject(with: data, options: [.mutableContainers, .allowFragments]) as? [String: AnyObject]
+		} catch {
+			return nil
+		}
+	}
+	
 	
 	// EMAIL VALIDATION METHOD
 	func isValidEmail() -> Bool {
