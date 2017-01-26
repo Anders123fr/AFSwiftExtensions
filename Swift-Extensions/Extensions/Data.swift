@@ -15,4 +15,9 @@ public extension Data {
 		return String(data: self, encoding: .utf8)
 	}
 	
+	// Converts a device token of the Data type, into a readable string
+	func toHexString() -> String {
+		return map { String(format: "%02.2hhx", $0) }.joined()
+	}
+	
 }
