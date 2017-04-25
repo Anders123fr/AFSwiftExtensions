@@ -58,7 +58,19 @@ class Swift_ExtensionsTests: XCTestCase {
 		view.set(height: 680)
 		XCTAssert(view.height == 680)
 
-		
-
 	}
+	
+	func testNSAttributedString() {
+		let string = "Hej med dig"
+		
+		var attr = StringAttributes()
+		attr.textColor = .yellow
+		
+		let attrStr = string.style(substring: "med", attributes: attr)
+		print(attrStr)
+		
+		let attrStr2 = attrStr.style(substring: "Hej", attributes: attr)
+		print(attrStr2)
+	}
+	
 }

@@ -149,42 +149,4 @@ public extension String {
 		return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: self)
 	}
 	
-	
-	/// NSAttributedString extension method
-	///
-	/// - Parameters:
-	///   - substring: an optional substring to style only. If nil, it will style the whole string
-	///   - font: The font to apply for the attributed string
-	///   - textColor: The text color to apply for the attributed string
-	///   - lineSpacing: The line spacing to apply
-	/// - Returns: Returns the NSAttributedString
-	func style(substring: String? = nil, font: UIFont? = nil, textColor: UIColor? = nil, lineSpacing: CGFloat? = nil) -> NSAttributedString {
-		// Start with the range of the full string
-		var range = (self as NSString).range(of: self)
-		
-		// If there is a substring specified then get range of that substring to only style that
-		if let substringTmp = substring {
-			range = (self as NSString).range(of: substringTmp)
-		}
-		
-		let attributedString = NSMutableAttributedString.init(string: self)
-		
-		if let newFont = font {
-			attributedString.addAttribute(NSFontAttributeName, value: newFont, range: range)
-		}
-		
-		if let newTextColor = textColor {
-			attributedString.addAttribute(NSForegroundColorAttributeName, value: newTextColor, range: range)
-		}
-		
-		if let newLineSpacing = lineSpacing {
-			let paraStyle = NSMutableParagraphStyle()
-			paraStyle.lineSpacing = newLineSpacing
-			//paraStyle.alignment = self.textAlignment
-			attributedString.addAttribute(NSParagraphStyleAttributeName, value: paraStyle, range: range)
-		}
-		
-		return attributedString
-	}
-
 }
